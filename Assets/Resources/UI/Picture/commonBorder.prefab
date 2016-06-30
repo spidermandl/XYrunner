@@ -1,0 +1,643 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &162926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 499608}
+  - 114: {fileID: 11405544}
+  m_Layer: 0
+  m_Name: commonBorder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &499608
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162926}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11405544
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 6887b2f9b04fd41f287a133f93e05090, type: 2}
+  mSprites:
+  - name: baikuai
+    x: 416
+    y: 677
+    width: 4
+    height: 4
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: baoxiangguang
+    x: 0
+    y: 664
+    width: 360
+    height: 360
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: border-1
+    x: 431
+    y: 263
+    width: 456
+    height: 89
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: border-10
+    x: 195
+    y: 432
+    width: 132
+    height: 40
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: border-11
+    x: 431
+    y: 353
+    width: 435
+    height: 152
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 15
+    paddingRight: 14
+    paddingTop: 0
+    paddingBottom: 0
+  - name: border-12
+    x: 492
+    y: 681
+    width: 100
+    height: 5
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: border-13
+    x: 734
+    y: 702
+    width: 50
+    height: 131
+    borderLeft: 20
+    borderRight: 20
+    borderTop: 2
+    borderBottom: 100
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: border-14
+    x: 792
+    y: 802
+    width: 223
+    height: 222
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 15
+  - name: border-2
+    x: 492
+    y: 687
+    width: 130
+    height: 146
+    borderLeft: 20
+    borderRight: 20
+    borderTop: 50
+    borderBottom: 80
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: border-3
+    x: 200
+    y: 196
+    width: 96
+    height: 89
+    borderLeft: 30
+    borderRight: 30
+    borderTop: 30
+    borderBottom: 30
+    paddingLeft: 17
+    paddingRight: 17
+    paddingTop: 15
+    paddingBottom: 42
+  - name: border-32
+    x: 361
+    y: 687
+    width: 130
+    height: 146
+    borderLeft: 40
+    borderRight: 40
+    borderTop: 40
+    borderBottom: 65
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: border-3padding0
+    x: 297
+    y: 196
+    width: 96
+    height: 89
+    borderLeft: 30
+    borderRight: 30
+    borderTop: 30
+    borderBottom: 30
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: border-4
+    x: 0
+    y: 402
+    width: 194
+    height: 70
+    borderLeft: 80
+    borderRight: 50
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: border-41
+    x: 0
+    y: 2
+    width: 40
+    height: 40
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: border-5
+    x: 298
+    y: 21
+    width: 56
+    height: 42
+    borderLeft: 20
+    borderRight: 20
+    borderTop: 19
+    borderBottom: 17
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: border-6
+    x: 41
+    y: 4
+    width: 38
+    height: 38
+    borderLeft: 12
+    borderRight: 12
+    borderTop: 12
+    borderBottom: 12
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: border-7-2
+    x: 105
+    y: 62
+    width: 68
+    height: 128
+    borderLeft: 15
+    borderRight: 15
+    borderTop: 20
+    borderBottom: 20
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: border-7-3
+    x: 328
+    y: 404
+    width: 68
+    height: 68
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: border-8
+    x: 105
+    y: 286
+    width: 114
+    height: 115
+    borderLeft: 20
+    borderRight: 20
+    borderTop: 20
+    borderBottom: 20
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: border-9
+    x: 0
+    y: 43
+    width: 98
+    height: 98
+    borderLeft: 5
+    borderRight: 5
+    borderTop: 5
+    borderBottom: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dengjidikuang
+    x: 361
+    y: 666
+    width: 54
+    height: 20
+    borderLeft: 8
+    borderRight: 8
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fentiaofu
+    x: 431
+    y: 506
+    width: 499
+    height: 157
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: heikuai
+    x: 416
+    y: 682
+    width: 4
+    height: 4
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: heitanchukuang
+    x: 317
+    y: 302
+    width: 92
+    height: 99
+    borderLeft: 18
+    borderRight: 18
+    borderTop: 18
+    borderBottom: 22
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: huodong
+    x: 105
+    y: 17
+    width: 86
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 1
+  - name: iconborder-1
+    x: 908
+    y: 671
+    width: 108
+    height: 130
+    borderLeft: 45
+    borderRight: 45
+    borderTop: 55
+    borderBottom: 55
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: iconborder-1-1
+    x: 298
+    y: 64
+    width: 60
+    height: 54
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 22
+    paddingRight: 22
+    paddingTop: 36
+    paddingBottom: 39
+  - name: iconborder-1-2
+    x: 623
+    y: 664
+    width: 82
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 11
+    paddingTop: 73
+    paddingBottom: 24
+  - name: iconborder-1-3
+    x: 220
+    y: 305
+    width: 96
+    height: 96
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: iconborder-1-4
+    x: 105
+    y: 191
+    width: 94
+    height: 94
+    borderLeft: 40
+    borderRight: 40
+    borderTop: 40
+    borderBottom: 40
+    paddingLeft: 5
+    paddingRight: 5
+    paddingTop: 17
+    paddingBottom: 18
+  - name: iconborder-2
+    x: 0
+    y: 142
+    width: 104
+    height: 129
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: iconborder-3
+    x: 0
+    y: 272
+    width: 104
+    height: 129
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: jinbichouqu
+    x: 361
+    y: 834
+    width: 430
+    height: 190
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: languang
+    x: 431
+    y: 256
+    width: 405
+    height: 6
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 41
+    paddingRight: 14
+    paddingTop: 1
+    paddingBottom: 5
+  - name: renwubiaolan
+    x: 298
+    y: 157
+    width: 128
+    height: 38
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: renwubiaolan2
+    x: 298
+    y: 119
+    width: 126
+    height: 37
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: shoujikuang1
+    x: 734
+    y: 667
+    width: 56
+    height: 34
+    borderLeft: 12
+    borderRight: 12
+    borderTop: 12
+    borderBottom: 12
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shuomingdida
+    x: 792
+    y: 671
+    width: 115
+    height: 130
+    borderLeft: 56
+    borderRight: 76
+    borderTop: 80
+    borderBottom: 63
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: whitebg
+    x: 416
+    y: 672
+    width: 4
+    height: 4
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: xuanxiangtiao
+    x: 245
+    y: 101
+    width: 52
+    height: 94
+    borderLeft: 10
+    borderRight: 10
+    borderTop: 51
+    borderBottom: 18
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 2
+    paddingBottom: 4
+  - name: xuanxiangtiao_huang
+    x: 200
+    y: 81
+    width: 44
+    height: 114
+    borderLeft: 10
+    borderRight: 10
+    borderTop: 51
+    borderBottom: 18
+    paddingLeft: 6
+    paddingRight: 6
+    paddingTop: 5
+    paddingBottom: 5
+  - name: xuanxiangtiao_lan
+    x: 245
+    y: 9
+    width: 52
+    height: 91
+    borderLeft: 10
+    borderRight: 10
+    borderTop: 51
+    borderBottom: 18
+    paddingLeft: 4
+    paddingRight: 2
+    paddingTop: 4
+    paddingBottom: 5
+  - name: zhucediban
+    x: 623
+    y: 697
+    width: 110
+    height: 136
+    borderLeft: 34
+    borderRight: 34
+    borderTop: 35
+    borderBottom: 35
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zitiaofu01_04
+    x: 397
+    y: 426
+    width: 12
+    height: 46
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zuanshichouqu
+    x: 0
+    y: 473
+    width: 430
+    height: 190
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 162926}
+  m_IsPrefabParent: 1

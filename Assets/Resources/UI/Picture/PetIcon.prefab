@@ -1,0 +1,669 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &189028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 407814}
+  - 114: {fileID: 11436752}
+  m_Layer: 0
+  m_Name: PetIcon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &407814
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11436752
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 06652b0b7de7244e88b0ef12080768ad, type: 2}
+  mSprites:
+  - name: Npc_Al_icon
+    x: 737
+    y: 645
+    width: 97
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 7
+    paddingTop: 8
+    paddingBottom: 0
+  - name: Npc_Al_list
+    x: 0
+    y: 405
+    width: 123
+    height: 140
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 6
+    paddingBottom: 2
+  - name: Npc_Al_talk
+    x: 0
+    y: 546
+    width: 423
+    height: 478
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Npc_Dyg_icon
+    x: 930
+    y: 645
+    width: 93
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 5
+    paddingTop: 8
+    paddingBottom: 0
+  - name: Npc_Dyg_list
+    x: 120
+    y: 6
+    width: 107
+    height: 132
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 6
+    paddingTop: 8
+    paddingBottom: 8
+  - name: Npc_Fttx_icon
+    x: 424
+    y: 380
+    width: 86
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 15
+    paddingTop: 8
+    paddingBottom: 0
+  - name: Npc_Fttx_list
+    x: 511
+    y: 754
+    width: 102
+    height: 123
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 17
+    paddingTop: 17
+    paddingBottom: 8
+  - name: Npc_Hb_icon
+    x: 815
+    y: 553
+    width: 91
+    height: 88
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 10
+    paddingTop: 4
+    paddingBottom: 0
+  - name: Npc_Hb_list
+    x: 242
+    y: 130
+    width: 108
+    height: 140
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 8
+    paddingTop: 5
+    paddingBottom: 3
+  - name: Npc_Hmtl_icon
+    x: 424
+    y: 465
+    width: 89
+    height: 83
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 9
+    paddingTop: 9
+    paddingBottom: 0
+  - name: Npc_Hmtl_list
+    x: 0
+    y: 5
+    width: 105
+    height: 111
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 7
+    paddingTop: 26
+    paddingBottom: 11
+  - name: Npc_Hun_icon
+    x: 514
+    y: 393
+    width: 75
+    height: 85
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 15
+    paddingRight: 20
+    paddingTop: 7
+    paddingBottom: 0
+  - name: Npc_Hun_list
+    x: 424
+    y: 730
+    width: 86
+    height: 147
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 19
+    paddingRight: 19
+    paddingTop: 1
+    paddingBottom: 0
+  - name: Npc_Jqm_icon
+    x: 590
+    y: 399
+    width: 79
+    height: 79
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 16
+    paddingRight: 15
+    paddingTop: 13
+    paddingBottom: 0
+  - name: Npc_Jqm_list
+    x: 614
+    y: 755
+    width: 94
+    height: 122
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 17
+    paddingRight: 13
+    paddingTop: 19
+    paddingBottom: 7
+  - name: Npc_Kdy_icon
+    x: 907
+    y: 549
+    width: 86
+    height: 92
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 12
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Npc_Kdy_list
+    x: 741
+    y: 884
+    width: 92
+    height: 140
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 19
+    paddingRight: 13
+    paddingTop: 1
+    paddingBottom: 7
+  - name: Npc_Kt_icon
+    x: 424
+    y: 549
+    width: 102
+    height: 92
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Npc_Kt_list
+    x: 0
+    y: 117
+    width: 114
+    height: 142
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 10
+    paddingTop: 4
+    paddingBottom: 2
+  - name: Npc_Lhg_icon
+    x: 424
+    y: 642
+    width: 108
+    height: 87
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 2
+    paddingTop: 5
+    paddingBottom: 0
+  - name: Npc_Lhg_list
+    x: 246
+    y: 405
+    width: 116
+    height: 140
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 8
+    paddingBottom: 0
+  - name: Npc_Line_icon
+    x: 527
+    y: 549
+    width: 99
+    height: 92
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 2
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Npc_Line_list
+    x: 0
+    y: 260
+    width: 119
+    height: 144
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 2
+  - name: Npc_Lm_icon
+    x: 637
+    y: 643
+    width: 99
+    height: 86
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 5
+    paddingTop: 6
+    paddingBottom: 0
+  - name: Npc_Lm_list
+    x: 243
+    y: 272
+    width: 122
+    height: 132
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 12
+    paddingBottom: 4
+  - name: Npc_LmDark_icon
+    x: 533
+    y: 643
+    width: 103
+    height: 86
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 1
+    paddingTop: 6
+    paddingBottom: 0
+  - name: Npc_LmDark_list
+    x: 120
+    y: 139
+    width: 121
+    height: 131
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 1
+    paddingTop: 12
+    paddingBottom: 5
+  - name: Npc_Mm_icon
+    x: 922
+    y: 785
+    width: 101
+    height: 92
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 5
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Npc_Mm_list
+    x: 120
+    y: 271
+    width: 122
+    height: 133
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 2
+    paddingTop: 8
+    paddingBottom: 7
+  - name: Npc_Mmls_icon
+    x: 835
+    y: 643
+    width: 94
+    height: 86
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 9
+    paddingTop: 6
+    paddingBottom: 0
+  - name: Npc_Mmls_list
+    x: 834
+    y: 899
+    width: 103
+    height: 125
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 14
+    paddingTop: 13
+    paddingBottom: 10
+  - name: Npc_Nm_icon
+    x: 514
+    y: 479
+    width: 102
+    height: 69
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 0
+    paddingTop: 23
+    paddingBottom: 0
+  - name: Npc_Nm_list
+    x: 617
+    y: 479
+    width: 102
+    height: 69
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 17
+    paddingRight: 5
+    paddingTop: 29
+    paddingBottom: 50
+  - name: Npc_Pkq_icon
+    x: 725
+    y: 549
+    width: 89
+    height: 92
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 21
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Npc_Pkq_list
+    x: 527
+    y: 882
+    width: 98
+    height: 142
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 18
+    paddingRight: 8
+    paddingTop: 0
+    paddingBottom: 6
+  - name: Npc_Qb_icon
+    x: 938
+    y: 936
+    width: 84
+    height: 88
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 17
+    paddingRight: 9
+    paddingTop: 4
+    paddingBottom: 0
+  - name: Npc_Qb_list
+    x: 424
+    y: 878
+    width: 102
+    height: 146
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 14
+    paddingRight: 8
+    paddingTop: 1
+    paddingBottom: 1
+  - name: Npc_Snk_icon
+    x: 815
+    y: 787
+    width: 106
+    height: 90
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 0
+    paddingTop: 2
+    paddingBottom: 0
+  - name: Npc_Snk_list
+    x: 124
+    y: 406
+    width: 121
+    height: 139
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 0
+    paddingTop: 7
+    paddingBottom: 2
+  - name: Npc_Su_icon
+    x: 709
+    y: 786
+    width: 105
+    height: 91
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 3
+    paddingTop: 1
+    paddingBottom: 0
+  - name: Npc_Su_list
+    x: 626
+    y: 905
+    width: 114
+    height: 119
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 2
+    paddingTop: 18
+    paddingBottom: 11
+  - name: Npc_Ylsb_icon
+    x: 627
+    y: 549
+    width: 97
+    height: 92
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 13
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Npc_Ylsb_list
+    x: 242
+    y: 8
+    width: 123
+    height: 121
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 23
+    paddingBottom: 4
+  - name: Unknow
+    x: 424
+    y: 297
+    width: 82
+    height: 82
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Zq_cnm_icon
+    x: 424
+    y: 214
+    width: 81
+    height: 82
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Zq_dhy_icon
+    x: 424
+    y: 131
+    width: 81
+    height: 82
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Zq_ufo_icon
+    x: 424
+    y: 50
+    width: 82
+    height: 80
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 1
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 189028}
+  m_IsPrefabParent: 1

@@ -1,0 +1,240 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &181272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 466616}
+  - 114: {fileID: 11448116}
+  m_Layer: 0
+  m_Name: UILoading
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &466616
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181272}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11448116
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 97dc0801500a4f346abf52d2958d4e28, type: 2}
+  mSprites:
+  - name: 0
+    x: 2
+    y: 2
+    width: 134
+    height: 176
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 87
+    paddingRight: 99
+    paddingTop: 29
+    paddingBottom: 35
+  - name: 1
+    x: 138
+    y: 2
+    width: 132
+    height: 174
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 89
+    paddingRight: 99
+    paddingTop: 31
+    paddingBottom: 35
+  - name: 10
+    x: 272
+    y: 2
+    width: 130
+    height: 174
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 90
+    paddingRight: 100
+    paddingTop: 31
+    paddingBottom: 35
+  - name: 11
+    x: 404
+    y: 2
+    width: 136
+    height: 170
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 84
+    paddingRight: 100
+    paddingTop: 31
+    paddingBottom: 39
+  - name: 2
+    x: 542
+    y: 2
+    width: 124
+    height: 170
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 98
+    paddingRight: 98
+    paddingTop: 35
+    paddingBottom: 35
+  - name: 3
+    x: 668
+    y: 2
+    width: 124
+    height: 170
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 98
+    paddingRight: 98
+    paddingTop: 35
+    paddingBottom: 35
+  - name: 4
+    x: 794
+    y: 2
+    width: 130
+    height: 172
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 91
+    paddingRight: 99
+    paddingTop: 33
+    paddingBottom: 35
+  - name: 5
+    x: 2
+    y: 180
+    width: 130
+    height: 170
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 84
+    paddingRight: 106
+    paddingTop: 31
+    paddingBottom: 39
+  - name: 6
+    x: 134
+    y: 180
+    width: 126
+    height: 172
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 87
+    paddingRight: 107
+    paddingTop: 33
+    paddingBottom: 35
+  - name: 7
+    x: 262
+    y: 180
+    width: 124
+    height: 170
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 89
+    paddingRight: 107
+    paddingTop: 35
+    paddingBottom: 35
+  - name: 8
+    x: 388
+    y: 180
+    width: 120
+    height: 168
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 97
+    paddingRight: 103
+    paddingTop: 37
+    paddingBottom: 35
+  - name: 9
+    x: 510
+    y: 180
+    width: 122
+    height: 170
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 97
+    paddingRight: 101
+    paddingTop: 35
+    paddingBottom: 35
+  - name: greyback
+    x: 634
+    y: 180
+    width: 90
+    height: 126
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: qiu
+    x: 726
+    y: 180
+    width: 148
+    height: 146
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 3
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 181272}
+  m_IsPrefabParent: 1

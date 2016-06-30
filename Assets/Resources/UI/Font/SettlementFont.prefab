@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &141794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 445688}
+  - 114: {fileID: 11495944}
+  m_Layer: 0
+  m_Name: SettlementFont
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &445688
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141794}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11495944
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b4eb3a400afab046abb8471a9d746d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mMat: {fileID: 2100000, guid: d03aee53f07798449b1ab8570816e6d2, type: 2}
+  mUVRect:
+    serializedVersion: 2
+    x: .426757812
+    y: .12109375
+    width: .125
+    height: .25
+  mFont:
+    mSize: 60
+    mBase: 52
+    mWidth: 256
+    mHeight: 256
+    mSpriteName: SettlementFont_0
+    mSaved:
+    - index: 48
+      x: 0
+      y: 0
+      width: 59
+      height: 56
+      offsetX: 0
+      offsetY: 0
+      advance: 59
+      channel: 15
+      kerning: 
+    - index: 49
+      x: 60
+      y: 0
+      width: 59
+      height: 56
+      offsetX: 0
+      offsetY: 0
+      advance: 59
+      channel: 15
+      kerning: 
+    - index: 50
+      x: 120
+      y: 0
+      width: 59
+      height: 56
+      offsetX: 0
+      offsetY: 0
+      advance: 59
+      channel: 15
+      kerning: 
+    - index: 51
+      x: 180
+      y: 0
+      width: 59
+      height: 56
+      offsetX: 0
+      offsetY: 0
+      advance: 59
+      channel: 15
+      kerning: 
+    - index: 52
+      x: 0
+      y: 57
+      width: 59
+      height: 56
+      offsetX: 0
+      offsetY: 0
+      advance: 59
+      channel: 15
+      kerning: 
+    - index: 53
+      x: 60
+      y: 57
+      width: 59
+      height: 56
+      offsetX: 0
+      offsetY: 0
+      advance: 59
+      channel: 15
+      kerning: 
+    - index: 54
+      x: 120
+      y: 57
+      width: 59
+      height: 56
+      offsetX: 0
+      offsetY: 0
+      advance: 59
+      channel: 15
+      kerning: 
+    - index: 55
+      x: 180
+      y: 57
+      width: 59
+      height: 56
+      offsetX: 0
+      offsetY: 0
+      advance: 59
+      channel: 15
+      kerning: 
+    - index: 56
+      x: 0
+      y: 114
+      width: 59
+      height: 56
+      offsetX: 0
+      offsetY: 0
+      advance: 59
+      channel: 15
+      kerning: 
+    - index: 57
+      x: 60
+      y: 114
+      width: 59
+      height: 56
+      offsetX: 0
+      offsetY: 0
+      advance: 59
+      channel: 15
+      kerning: 
+  mAtlas: {fileID: 11472194, guid: b89317ac1a42c274b8533bbd352ad4a1, type: 2}
+  mReplacement: {fileID: 0}
+  mSymbols: []
+  mDynamicFont: {fileID: 0}
+  mDynamicFontSize: 16
+  mDynamicFontStyle: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 141794}
+  m_IsPrefabParent: 1

@@ -1,0 +1,223 @@
+-- --[[
+-- author:hanli_xiong
+-- 预加载场景对象
+-- ]]
+
+-- PreLoad = {}
+
+-- PreLoad.level_endless = {
+-- 	-- "Prefabs/items/",-- 道具
+-- 	-- "Prefabs/Surface/",-- 跑道
+-- 	-- "Prefabs/monster/",-- 野怪
+-- 	-- "Prefabs/Effects/Common/",-- 特效
+-- 	--特效
+-- 	"Prefabs/Effects/Common/ef_cloudroad_yan" ,--穿透云层路面时特效
+-- 	"Prefabs/Effects/Common/ef_debuff_hongse", --攻击禁止特效
+-- 	"Prefabs/Effects/Common/ef_debuff_lanse", --跳跃禁止特效
+-- 	"Prefabs/Effects/Common/ef_debuff_lvse", --反向debuff特效
+-- 	"Prefabs/Effects/Common/ef_debuff_zise", --技能禁止特效
+-- 	"Prefabs/Effects/Common/ef_double_jump", --主角二段跳特效
+-- 	"Prefabs/Effects/Common/ef_GQ_dhy_chongci", --大黄鸭冲刺特效特效
+-- 	"Prefabs/Effects/Common/ef_monster_chengguan", --城管鸟特效特效
+-- 	"Prefabs/Effects/Common/ef_monster_fengtu", --疯兔特效
+-- 	"Prefabs/Effects/Common/ef_monster_guike", --红色龟壳弹地特效特效
+-- 	"Prefabs/Effects/Common/ef_monster_hit" ,--通用小怪攻击特效
+-- 	"Prefabs/Effects/Common/ef_monster_wasi" ,--X1瓦斯弹特效
+-- 	"Prefabs/Effects/Common/ef_monster_wasix2", --X2瓦斯弹特效
+-- 	"Prefabs/Effects/Common/ef_monster_wasix3" ,--X3瓦斯弹特效
+-- 	"Prefabs/Effects/Common/ef_monster_wasix4" ,--X4瓦斯弹特效
+-- 	"Prefabs/Effects/Common/ef_monster_zuishu", --醉鼠特效
+-- 	"Prefabs/Effects/Common/ef_npc_death", --敌人死亡特效
+-- 	"Prefabs/Effects/Common/ef_npc_hit", --任何攻击命中敌人或和互动装饰物的时候特效
+-- 	"Prefabs/Effects/Common/ef_npc_hit_box", --打破互动装饰物（箱子）的时候特效
+-- 	"Prefabs/Effects/Common/ef_pet_guangquan", --所有抛东西出来的萌宠通用特效
+-- 	"Prefabs/Effects/Common/ef_pet_Lm_big" ,--龙猫匝地技能（强化）特效
+-- 	"Prefabs/Effects/Common/ef_pet_Lm_small" ,--龙猫匝地技能特效
+-- 	"Prefabs/Effects/Common/ef_pet_xiaoshi" ,--支援角色出现消失特效
+-- 	"Prefabs/Effects/Common/ef_pet_Ylsb_guang" ,--伊丽莎白举牌特效特效
+-- 	"Prefabs/Effects/Common/ef_player_girl_atk01", --女主角攻击动作01特效
+-- 	"Prefabs/Effects/Common/ef_player_girl_atk02" ,--女主角攻击动作02特效
+-- 	"Prefabs/Effects/Common/ef_player_girl_atk03" ,--女主角攻击动作03特效
+-- 	"Prefabs/Effects/Common/ef_player_girl_atk04" ,--女主角攻击动作04特效
+-- 	"Prefabs/Effects/Common/ef_player_goldcoins" ,--掉钱特效特效
+-- 	"Prefabs/Effects/Common/ef_player_tuoweixingxing", --拖尾星星特效
+-- 	"Prefabs/Effects/Common/ef_pleyer_male_atk01" ,--男主角攻击动作01特效
+-- 	"Prefabs/Effects/Common/ef_pleyer_male_atk02", --男主角攻击动作02特效
+-- 	"Prefabs/Effects/Common/ef_pleyer_male_atk03", --男主角攻击动作03特效
+-- 	"Prefabs/Effects/Common/ef_pleyer_male_atk04" ,--男主角攻击动作04特效
+-- 	"Prefabs/Effects/Common/ef_pleyer_male_chongci", --male主角冲刺效果run02特效
+-- 	"Prefabs/Effects/Common/ef_prop_gold" ,--收集特效，闪光（黄色）特效
+-- 	"Prefabs/Effects/Common/ef_prop_prop" ,--收集特效，闪光（紫色）特效
+-- 	"Prefabs/Effects/Common/ef_prop_red", --收集特效，闪光（红色）特效
+-- 	"Prefabs/Effects/Common/ef_prop_goldcoinswave", --发动金币冲击波时所播放的扩散性图标特效
+-- 	"Prefabs/Effects/Common/ef_prop_quan", --场景里血瓶等物件的光圈效果特效
+-- 	"Prefabs/Effects/Common/ef_prop_safetyhelmet", --开启护罩道具时的全身防御特效
+-- 	"Prefabs/Effects/Common/ef_prop_safetyhelmet_end", --护罩结束特效表现
+-- 	"Prefabs/Effects/Common/ef_prop_safetyhelmet_zq", --坐骑上护罩
+-- 	"Prefabs/Effects/Common/ef_prop_spring", --弹床动画+光圈特效
+-- 	"Prefabs/Effects/Common/ef_prop_tili", --绿光多个“+”号配合上升线上浮消失
+-- 	"Prefabs/Effects/Common/ef_prop_xitieshi", --开启磁铁道具时的收束型特效
+-- 	"Prefabs/Effects/Common/ef_single_drop", --主角落地特效
+-- 	"Prefabs/Effects/Common/ef_single_jump", --主角跳跃特效
+-- 	"Prefabs/Effects/Common/ef_TZ_maowei_goldtuowei", --猫尾套装的金币雨与钻石雨特效
+-- 	"Prefabs/Effects/Common/ef_TZ_qiaoba_bianda", --乔巴套装变大特效
+-- 	"Prefabs/Effects/Common/ef_TZ_shizi_houjiao", --狮子耳吼叫特效
+-- 	"Prefabs/Effects/Common/ef_wall_L_jump", --主角弹墙跳特效（左边的墙面）
+-- 	"Prefabs/Effects/Common/ef_wall_R_jump", --主角弹墙跳特效（右边的墙面）
+-- 	"Prefabs/Effects/Common/ef_xiaohei_hit", --小黑攻击命中效果
+-- 	"Prefabs/Effects/Common/ef_xiaohei_idlel01" ,--小黑idlel01待机特效
+-- 	"Prefabs/Effects/Common/ef_xiaopa_hit_debuff" ,--玩家被小帕击中后效果
+
+-- 	--{--道具
+-- 	-- "Prefabs/items/branch01",-- 丘比随机抛洒道具
+-- 	-- "Prefabs/items/branch01a",-- 随机搜集道具
+-- 	-- "Prefabs/items/branch01b",-- 丘比随机抛洒道具
+-- 	-- "Prefabs/items/coin",-- 金币收集道具
+-- 	-- "Prefabs/items/coinBigger",-- 丘比随机抛洒道具
+-- 	-- "Prefabs/items/coins",-- 银币
+-- 	-- "Prefabs/items/CrackWall",-- 可破坏的墙
+-- 	-- "Prefabs/items/diamond",-- 钻石道具
+-- 	-- "Prefabs/items/duck_summon",-- 大黄鸭触发道具
+-- 	-- "Prefabs/items/GuideItem",-- 新手引导道具
+-- 	-- "Prefabs/items/iron01",-- 丘比随机抛洒道具
+-- 	-- "Prefabs/items/iron01a",-- 收集道具
+-- 	-- "Prefabs/items/iron01b",-- 收集道具
+-- 	-- "Prefabs/items/jewel01",-- 收集道具
+-- 	-- "Prefabs/items/jewel01a",-- 收集道具
+-- 	-- "Prefabs/items/jewel01b",-- 收集道具
+-- 	-- "Prefabs/items/jewel03a",-- 收集道具
+-- 	-- "Prefabs/items/jewel04a",-- 收集道具
+-- 	-- "Prefabs/items/jewel05a",-- 收集道具
+-- 	-- "Prefabs/items/JumpGuide",-- 跳跃引导
+-- 	-- "Prefabs/items/magnet",-- 磁铁道具
+-- 	-- "Prefabs/items/pinecone",-- 松果道具
+-- 	-- "Prefabs/items/PokeBall",-- 精灵球
+-- 	-- "Prefabs/items/redCoinTurnOnItem",-- 红金币
+-- 	-- "Prefabs/items/rock01",-- 收集道具
+-- 	-- "Prefabs/items/rock01a",-- 收集道具
+-- 	-- "Prefabs/items/rock01b",-- 收集道具
+-- 	-- "Prefabs/items/shield",-- 无敌道具
+-- 	-- "Prefabs/items/StaminaBottle",-- 血瓶道具
+-- 	-- "Prefabs/items/teeth01",-- 收集道具
+-- 	-- "Prefabs/items/teeth01a",-- 收集道具
+-- 	-- "Prefabs/items/teeth01b",-- 收集道具
+-- 	-- "Prefabs/items/treasure_box",-- 关卡宝箱
+-- 	-- --野怪
+-- 	-- "Prefabs/monster/blackcat",-- 小黑
+-- 	-- "Prefabs/monster/Bowser",-- 胆小龟
+-- 	-- "Prefabs/monster/ChasedBird",-- 城管鸟
+-- 	-- "Prefabs/monster/DrunkRat",-- 醉酒鼠
+-- 	-- "Prefabs/monster/flightTortoise",-- 蓝色龟壳
+-- 	-- "Prefabs/monster/Koffing",-- 瓦斯弹
+-- 	-- "Prefabs/monster/LickFlower",-- 舔人花
+-- 	-- "Prefabs/monster/LittleDrop",-- 小水滴
+-- 	-- "Prefabs/monster/MadRabbit",-- 疯兔
+-- 	-- "Prefabs/monster/NinjaBeauty",-- 忍者美女
+-- 	-- "Prefabs/monster/NinjaPig",-- 忍者猪
+-- 	-- "Prefabs/monster/SlideMole",-- 潜行鼠
+-- 	-- "Prefabs/monster/SpiritPa",-- 小帕
+-- 	-- "Prefabs/monster/SpringTortoise",-- 红色龟壳
+-- 	-- "Prefabs/monster/SumoFrog",-- 大蛤蟆
+-- 	--坐骑
+
+-- 	--无尽关卡
+-- 	"Prefabs/part/1001001",
+-- 	"Prefabs/part/1001002",
+-- 	"Prefabs/part/1001003",
+-- 	"Prefabs/part/1001004",
+-- 	"Prefabs/part/1001005",
+-- 	"Prefabs/part/1001006",
+-- 	"Prefabs/part/1001007",
+-- 	"Prefabs/part/1001008",
+-- 	"Prefabs/part/1001009",
+-- 	"Prefabs/part/1001010",
+-- 	"Prefabs/part/1001100",
+-- 	"Prefabs/part/1001101",
+-- 	"Prefabs/part/1001102",
+-- 	"Prefabs/part/1001103",
+-- 	"Prefabs/part/1002011",
+-- 	"Prefabs/part/1002012",
+-- 	"Prefabs/part/1002013",
+-- 	--landscape,
+-- 	"Prefabs/part/landscape/mediumshot01",
+-- 	"Prefabs/part/landscape/mediumshot02",
+-- 	"Prefabs/part/landscape/scenes_beach_bk",
+-- 	"Prefabs/part/landscape/scenes_demo_bk",
+-- 	--剧情关卡
+-- 	"Prefabs/part/level_S_1",
+-- 	"Prefabs/part/level_S_2",
+-- 	"Prefabs/part/level_S_3",
+-- 	"Prefabs/part/level_S_4",
+-- 	"Prefabs/part/level_S_5",
+-- 	"Prefabs/part/level_S_6",
+-- 	"Prefabs/part/level_S_7",
+-- 	"Prefabs/part/level_S_8",
+-- 	"Prefabs/part/level_S_9",
+-- 	"Prefabs/part/level_S_10",
+-- 	"Prefabs/part/level_S_11",
+-- 	"Prefabs/part/level_S_12",
+-- 	"Prefabs/part/level_S_13",
+-- 	"Prefabs/part/level_S_14",
+-- 	"Prefabs/part/level_S_15",
+-- 	--新手引导管
+-- 	"Prefabs/part/level_T_1",
+-- 	"Prefabs/part/level_T_2",
+-- 	--萌宠
+-- 	"Prefabs/Pet/fly_penguin" ,--飞天企鹅
+-- 	"Prefabs/Pet/robot_cat", --机械猫
+-- 	"Prefabs/Pet/habi" ,--哈比
+-- 	"Prefabs/Pet/nemo", --鱼
+-- 	-- "Prefabs/Pet/LittleBear", --小熊
+-- 	-- "Prefabs/Pet/meows", --咪咪
+-- 	-- "Prefabs/Pet/Npc_Dyg", --大眼睛
+-- 	-- "Prefabs/Pet/Npc_Hmtl", --哈姆太郎
+-- 	-- "Prefabs/Pet/Npc_Kdy", --番长鸭
+-- 	-- "Prefabs/Pet/Npc_Lhg", --多尾兔
+-- 	-- "Prefabs/Pet/Npc_Mmls", --猫老师
+-- 	-- "Prefabs/Pet/Npc_Pkq", --皮神
+-- 	-- "Prefabs/Pet/Npc_Qb", --乔巴
+-- 	-- "Prefabs/Pet/Npc_Snk", --黄金狸猫
+-- 	-- "Prefabs/Pet/Elizabeth", --伊丽莎白
+-- 	-- "Prefabs/Pet/chinchillas", --龙猫
+-- 	--角色
+-- 	"Prefabs/Player/desmond", --男角色
+-- 	"Prefabs/Player/desmond_generic", --男角色
+-- 	"Prefabs/Player/dgirl", --女角色
+-- 	"Prefabs/Player/dgirl_generic", --女角色
+-- 	"Prefabs/Player/dgirl_qb_generic", --女角色乔巴
+-- 	"Prefabs/Player/dmale_qb_generic", --男角色乔巴
+-- 	--surface
+-- 	"Prefabs/Surface/flower", --花
+-- 	"Prefabs/Surface/jelly_blue", --蓝色弹簧
+-- 	"Prefabs/Surface/jelly_green", --绿色弹簧
+-- 	"Prefabs/Surface/jelly_red", --红色弹簧
+-- 	"Prefabs/Surface/jelly_yellow", --黄色弹簧
+-- 	"Prefabs/Surface/mushroom", --蘑菇
+-- 	"Prefabs/Surface/scenes_demo_road01d", --一段路
+-- 	--"Prefabs/Surface/step", --终点
+-- }
+
+-- PreLoad.ui_login = {
+-- 	"Sound/sound/",
+-- 	"Sound/background/",
+-- }
+
+-- -- PreLoad.ui_building = {
+-- -- 	"Prefabs/UI/",
+-- -- }
+
+-- PreLoad.null = {}
+
+-- function PreLoad.Load(scene_name)
+-- 	print("PreLoad.Load:" .. scene_name)
+-- 	if PreLoad[scene_name] then
+-- 		Util.PreLoad(PreLoad[scene_name])
+-- 	else
+-- 		Util.PreLoad(PreLoad.null)
+-- 	end
+	
+-- 	-- local obj = Util.LoadPrefabAsync(tab[1])
+-- 	-- for i=1, #tab do
+-- 	-- 	local obj = Util.LoadPrefab(tab[i])
+-- 	-- end
+-- end
